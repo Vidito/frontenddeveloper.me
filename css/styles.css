@@ -4,7 +4,36 @@ body {
   font-family: 'Merriweather Sans', sans-serif;
   color: #40514E;
 }
+ul {
+  list-style-type: none;
+  right: 0;
+  top:0;
+  overflow: hidden;
+  background-color: #E4f9f5;
+  font-faily:helvetica;
+  position:absolute;
+}
 
+li {
+  float: right;
+
+}
+
+li a {
+  display: block;
+  color: #11999E;
+  text-align: center;
+  padding: 14px 9px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: #00E6EE;
+}
+
+.active {
+  color: #0a6363;
+}
 h1 {
   margin:50px auto 0 auto;
 font-family: 'Parisienne', cursive;
@@ -26,6 +55,11 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   color:#11999E;
+}
+.contactQuestion {
+  margin-top:70px;
+  margin-bottom:40px;
+  padding-bottom:40px;
 }
 
 .topContainer {
@@ -52,7 +86,6 @@ h3 {
   left:90px;
   top:1px;
 }
-
 .top-cloud {
   position: absolute;
   right: 300px;
@@ -70,15 +103,8 @@ p {
   line-height: 2;
 }
 
-.line1 {
-  border:none;
-  border-top:8px dotted #D2DDDF;
-  margin-top: 90px;
-  margin-bottom: 90px;
 
-  width:5%;
-}
-.line2 {
+hr {
   border:none;
   border-top:8px dotted #D2DDDF;
   width:5%;
@@ -88,6 +114,10 @@ p {
 .profilePhoto {
   width:200px;
   height:200px;
+  margin-top:85px;
+}
+.underProfile {
+  margin-bottom:150px;
 }
 .middle-container {
 margin:100px 0;
